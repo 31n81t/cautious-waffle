@@ -5,7 +5,7 @@ This very primitive script will generate new wallet, show balance, private key a
 As script uses bitcoin-cli for generating wallet you need to have it installed on system.
 
 Instrictions:
-Clone repo: git clone https://github.com/31n81t/cautious-waffle.git \n
-cd cautious-waffle/ \n
-chmod +x addrgen.sh  \n
-./addrgen.sh \n
+Clone repo: git clone https://github.com/31n81t/cautious-waffle.git
+cd cautious-waffle/
+chmod +x addrgen.sh
+./addrgen.sh
