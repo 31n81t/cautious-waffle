@@ -1,22 +1,12 @@
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
-
 ## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
+This very primitive script generates wallet and shows balance, private key and address and puts that information in tmp3.txt file.
+
 ## Setup
-To run this project, install it locally using npm:
+To run this very primitive script, you need to have git and bitcoind installed on system, as script uses bitcoin-cli to generate wallet address and keys:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ git clone https://github.com/31n81t/cautious-waffle
+$ cd cautious-waffle
+$ chmod +x addrgen.sh
+$ ./addrgen.sh
 ```
