@@ -6,4 +6,6 @@ bitcoin-cli -rpcwallet="$(< tmp.txt)" getnewaddress `cat tmp.txt` > tmp2.txt && 
 bitcoin-cli -rpcwallet="$(< tmp.txt)" dumpprivkey `cat tmp2.txt` >> tmp3.txt && \
 cat tmp2.txt >> tmp3.txt && \
 cat tmp3.txt && \
+mv tmp3.txt wallet`date +%d%H%M%S`.txt && \
+rm tmp* && \
 exit
